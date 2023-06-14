@@ -8,6 +8,98 @@
     font-family: 'Space Mono', monospace;*/
 
 
+@media screen and (max-width: 480px) {
+  /* Styles for smaller screens */
+h1 {
+    display: none;
+}
+
+.section-main {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    height: 150em !important;
+}
+
+body {
+    margin: 0 !important;
+}
+
+.about-img {
+   width: 100% !important; 
+}
+
+.intro {
+    margin-top: 20% !important;
+}
+
+.about {
+margin: 50% auto 0  !important;
+width: 75% !important;
+font-size: 0.8em;
+}
+
+.skills-paragraph {
+    display: none !important;
+}
+
+.skills-img {
+    width: 50% !important;
+}
+
+#h2 {
+    margin-left: 1em !important;
+}
+
+.techstack-wrapper {
+margin: 70% auto 0  !important;
+width: 90% !important;
+font-size: 0.8em;
+}
+
+.projects-img {
+ margin-top: -40% !important;
+ width: 100% !important;
+ z-index: 1 !important;
+}
+
+.projects-paragraph {
+margin: 60% auto 0  !important;
+width: 75% !important;
+font-size: 0.8em;
+}
+
+.interests-img3 {
+    margin-top: 40% !important;
+    width: 40% !important;
+}
+
+.interests-img {
+    margin-top: -40% !important;
+    width: 100% !important;
+}
+
+.interests-img2 {
+    margin-top: 60% !important;
+    margin-left: 45% !important;
+    width: 100% !important;
+}
+
+.interests-paragraph {
+        margin: 60% auto 0  !important;
+        width: 65% !important;
+        font-size: 0.8em;
+}
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for medium-sized screens */
+}
+
+@media screen and (max-width: 1024px) {
+  /* Styles for larger screens */
+}
+
+
 body {
     margin: 0 0 3em 0;
     font-family: 'Space Mono', monospace;
@@ -75,7 +167,7 @@ a, a::before,a::after, a:hover, a:active, a:visited,a:link{
 
 
 
-.projects-img2 {
+.cts-img2 {
     display: flex;
     justify-content: end;
     position: relative;
@@ -165,7 +257,7 @@ table {
 }
 
 .projects-img {
-    z-index: 1;
+    z-index: 0;
     margin-left: 8%;
     position: absolute;
     width: 60%;

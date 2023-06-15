@@ -69,19 +69,20 @@ font-size: 0.8em;
 }
 
 .interests-img3 {
-    margin-top: 40% !important;
-    width: 40% !important;
+    margin-top: 30% !important;
+    width: 80% !important;
+
 }
 
 .interests-img {
-    margin-top: -40% !important;
+    margin-top: 20% !important;
     width: 100% !important;
 }
 
 .interests-img2 {
-    margin-top: 60% !important;
+    margin-top: 140% !important;
     margin-left: 45% !important;
-    width: 100% !important;
+    width: 40% !important;
 }
 
 .interests-paragraph {
@@ -89,6 +90,14 @@ font-size: 0.8em;
         width: 65% !important;
         font-size: 0.8em;
 }
+
+.contact-footer {
+    font-size: 2em;
+    margin-top: 30% !important;
+    margin-left: 10% !important;
+    display: block !important;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -261,7 +270,7 @@ table {
 
 .interests-img {
     z-index: 1;
-    margin-top: 4%;
+    margin-top: 41.5%;
     margin-left: 4%;
     margin-bottom: 2%;
     position: absolute;
@@ -270,20 +279,20 @@ table {
 
 .interests-img2 {
     z-index: 1;
-    margin-top: 16%;
-    margin-left: 60%;
+    margin-top: 50%;
+    margin-left: 70%;
     margin-bottom: 2%;
     position: absolute;
-    width: 60%;
+    width: 20%;
 }
 
 .interests-img3 {
     z-index: 0;
-    margin-top: 60.5%;
+    margin-top: 58%;
     margin-left: 54%;
     margin-bottom: 2%;
     position: absolute;
-    width: 24%;
+    width: 27%;
 }
 
 .interests-paragraph {
@@ -338,6 +347,11 @@ img {
     padding: 1em;
     width: 50%
 }
+
+.contact-footer {
+    display: none;
+}
+
 .total-wrapper {
     display: flex;
     justify-content: space-between
@@ -347,7 +361,6 @@ img {
     margin-top: 0%;
     margin-left: 60%;
     width: 60%;
-
 }
 
 #h2 {

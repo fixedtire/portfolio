@@ -52,7 +52,7 @@ font-size: 0.8em;
 
 .techstack-wrapper {
 margin: 70% auto 0  !important;
-width: 90% !important;
+width: 86% !important;
 font-size: 0.8em;
 }
 
@@ -78,15 +78,15 @@ font-size: 0.8em;
     margin-top: 20% !important;
     width: 100% !important;
 }
-
+/* VAN IMG */
 .interests-img2 {
-    margin-top: 140% !important;
+    margin-top: 100% !important;
     margin-left: 45% !important;
     width: 40% !important;
 }
 
 .interests-paragraph {
-        margin: 60% auto 0  !important;
+        margin: 65% auto 0  !important;
         width: 65% !important;
         font-size: 0.8em;
 }
@@ -126,6 +126,10 @@ body {
     width: 94%;
     height: 187rem;
     border-radius: 25px;
+}
+
+.contact-nav {
+    text-align: left;
 }
 
 #section {

@@ -32,9 +32,32 @@ body {
     margin-top: 20% !important;
 }
 
+.header ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.header ul li {
+    display: block;
+    margin-bottom: 10px; /* Adjust the spacing between list items */
+}
+
+.logo-title {
+    display: none !important;
+}
+
+.contact-link {
+    text-align: right;
+}
+
+.main-nav-links {
+    text-align: left !important; /* Align the "CONTACT" link to the right */
+}
+
 .about {
 margin: 50% auto 0  !important;
-width: 75% !important;
+width: 85% !important;
 font-size: 0.8em;
 }
 
@@ -73,10 +96,11 @@ font-size: 0.8em;
     width: 80% !important;
 
 }
-
+/* GUITAR PLAER */
 .interests-img {
-    margin-top: 20% !important;
-    width: 100% !important;
+    margin-top: 18% !important;
+    margin-left: 8% !important;
+    width: 90% !important;
 }
 /* VAN IMG */
 .interests-img2 {
@@ -86,12 +110,13 @@ font-size: 0.8em;
 }
 
 .interests-paragraph {
-        margin: 65% auto 0  !important;
+        margin: 60% auto 0  !important;
         width: 65% !important;
         font-size: 0.8em;
 }
 
 .contact-footer {
+    margin-bottom: 2%;
     font-size: 0.8em;
     margin-top: 30% !important;
     margin-left: 4% !important;
@@ -388,8 +413,6 @@ img {
     font-family: Space Mono, sans-serif;
 
 }
-
-
 
 
 ul, li {

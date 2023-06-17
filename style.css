@@ -92,10 +92,18 @@ font-size: 0.8em;
 }
 
 .contact-footer {
-    font-size: 2em;
+    font-size: 0.8em;
     margin-top: 30% !important;
-    margin-left: 10% !important;
+    margin-left: 4% !important;
     display: block !important;
+    background-color: white;
+    opacity: 0.97;
+    border-radius: 25px;
+    font-family: Albert Sans, sans-serif;
+    width: 70%;
+    height: 140%;
+    padding: 1em 2rem 2rem 4rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 }

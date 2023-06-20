@@ -134,9 +134,9 @@ font-size: 0.8em;
 
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (max-width: 1033px) {
     .section-main {
-        height: 60em !important;
+        height: 10em !important;
     }
 }
 

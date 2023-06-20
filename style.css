@@ -151,6 +151,7 @@ body {
 .section-main {
     background-image: url(./bg_neu_svg.svg);
     background-repeat: repeat-y;
+    background-size: 100%;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 8px, rgba(17, 17, 26, 0.1) 0px 8px 8px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     padding: 2.4rem 1rem 1rem 1rem;
     margin-left: 2%;

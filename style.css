@@ -134,8 +134,10 @@ font-size: 0.8em;
 
 }
 
-@media screen and (max-width: 1044px) {
-  /* Styles Tablet*/
+@media screen and (min-width: 481px) {
+    .section-main {
+        height: 60em !important;
+    }
 }
 
 @media screen and (min-width: 1044px) {

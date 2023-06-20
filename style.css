@@ -18,6 +18,7 @@ h1 {
     border-radius: 0 !important;
     margin: 0 !important;
     height: 160em !important;
+    background-size: initial !important;
 }
 
 body {

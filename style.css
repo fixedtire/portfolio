@@ -7,9 +7,10 @@
 
     font-family: 'Space Mono', monospace;*/
 
+/* --------- MOBILE DEVICES ------------- */
 
 @media screen and (max-width: 480px) {
-  /* Styles for smaller screens */
+
 h1 {
     display: none;
 }
@@ -106,8 +107,8 @@ font-size: 0.8em;
 /* VAN IMG */
 .interests-img2 {
     margin-top: 100% !important;
-    margin-left: 45% !important;
-    width: 40% !important;
+    margin-left: 60% !important;
+    width: 30% !important;
 }
 
 .interests-paragraph {
@@ -119,7 +120,7 @@ font-size: 0.8em;
 .contact-footer {
     margin-bottom: 2%;
     font-size: 0.8em;
-    margin-top: 30% !important;
+    margin-top: 20% !important;
     margin-left: 4% !important;
     display: block !important;
     background-color: white;
@@ -132,19 +133,24 @@ font-size: 0.8em;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
+/* ------------- LARGER SCREENS --------------------*/
+
+@media (min-width: 481px) and (max-width: 1044px) {
+    .section-main {
+             height: 187em !important;
+        }
+    }
+
+@media (min-width: 1045px) {
+    .section-main {
+                height: 330em !important;
+            }
+        }
+
+
 }
 
-@media screen and (max-width: 1033px) {
-    .section-main {
-        height: 10em !important;
-    }
-}
 
-@media screen and (min-width: 1044px) {
-    .section-main {
-        height: 330em !important;
-    }
-}
 
 
 body {
@@ -163,7 +169,6 @@ body {
     margin-right: 2%;
     margin-top: 0.5%;
     width: 94%;
-    height: 187rem;
     border-radius: 25px;
 }
 

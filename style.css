@@ -315,28 +315,29 @@ table {
     position: absolute;
     width: 60%;
 }
-
+/* GUITAR PLAYER */
 .interests-img {
     z-index: 1;
-    margin-top: 41.5%;
+    margin-top: 31.5%;
     margin-left: 4%;
     margin-bottom: 2%;
     position: absolute;
     width: 60%;
 }
 
+/* VAN */
 .interests-img2 {
     z-index: 1;
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 70%;
     margin-bottom: 2%;
     position: absolute;
     width: 20%;
 }
-
+/* SURF GUY */
 .interests-img3 {
     z-index: 0;
-    margin-top: 58%;
+    margin-top: 45%;
     margin-left: 54%;
     margin-bottom: 2%;
     position: absolute;
@@ -356,7 +357,6 @@ table {
     height: 140%;
     padding: 1em 2rem 2rem 4rem;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-
 
 }
 

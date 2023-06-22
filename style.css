@@ -98,7 +98,7 @@ font-size: 0.8em;
     width: 80% !important;
 
 }
-/* GUITAR PLAER */
+/* GUITAR PLAYER */
 .interests-img {
     margin-top: 18% !important;
     margin-left: 8% !important;
@@ -347,8 +347,9 @@ table {
     z-index: 1;
     background-color: white;
     opacity: 0.97;
-    margin-top: 40%;
+    margin-top: 25%;
     margin-left: 33%;
+    margin-bottom: 20%;
     border-radius: 25px;
     font-family: Albert Sans, sans-serif;
     width: 59.4%;

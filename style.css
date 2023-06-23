@@ -7,6 +7,24 @@
 
     font-family: 'Space Mono', monospace;*/
 
+
+/* --------- SLIDE-IN ANIMATION ------------------ */
+
+@keyframes slide-in {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-class {
+  transform: translateX(100%);
+  animation: slide-in 0.5s forwards;
+  }
+
+
 /* --------- MOBILE DEVICES ------------- */
 
 @media screen and (max-width: 480px) {
@@ -160,7 +178,7 @@ body {
 }
 
 .section-main {
-    background-image: url(./bg_neu_svg.svg);
+    background-image: url(./img/bg_neu_svg.svg);
     background-repeat: repeat-y;
     background-size: 100%;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 8px, rgba(17, 17, 26, 0.1) 0px 8px 8px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -255,6 +273,8 @@ a, a::before,a::after, a:hover, a:active, a:visited,a:link{
     border-radius: 25px;
     line-height: 1.8em;
     font-family: Albert Sans, sans-serif;
+    transition: opacity 0.5s ease; /* Übergangseffekt für die Einblendung */
+    
 }
 
 .skills-img {

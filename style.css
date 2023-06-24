@@ -10,6 +10,8 @@
 
 /* --------- SLIDE-IN ANIMATION ------------------ */
 
+/* UNDER CONSTRUCTION
+
 @keyframes slide-in {
     0% {
       transform: translateX(100%);
@@ -23,6 +25,7 @@
   transform: translateX(100%);
   animation: slide-in 0.5s forwards;
   }
+*/
 
 
 /* --------- MOBILE DEVICES ------------- */

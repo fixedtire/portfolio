@@ -1,4 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;400&family=Epilogue:wght@600&family=Poppins:wght@100;400&family=Space+Mono&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;400&family=Epilogue:wght@600&family=Poppins:wght@100;400&family=Space+Mono&display=swap');
+*/
+
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('./fonts/Albert_Sans/AlbertSans-VariableFont_wght.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url('./fonts/Epilogue/Epilogue-VariableFont_wght.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Thin.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('./fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+  }
+
+
+
 /*  font-family: 'Albert Sans', sans-serif;
 
     font-family: 'Epilogue', sans-serif;

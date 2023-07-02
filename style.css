@@ -75,7 +75,7 @@ body {
 }
 
 .main-nav-links {
-    text-align: left !important; /* Align the "CONTACT" link to the right */
+    text-align: left !important;
 }
 
 .about {
@@ -178,6 +178,19 @@ body {
     margin: 0 0 3em 0;
     font-family: 'Space Mono', monospace;
     background-color: rgb(247, 245, 251);
+}
+
+
+.main-nav-links {
+    color: white;
+}
+
+.main-nav-links a:hover {
+    color: black;
+}
+
+.contact-link:hover {
+    color: black;
 }
 
 .section-main {

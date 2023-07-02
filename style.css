@@ -29,7 +29,9 @@
 
     font-family: 'Poppins', sans-serif;
 
-    font-family: 'Space Mono', monospace;*/
+    font-family: 'Space Mono', monospace;
+    
+*/
 
 
 /* --------- SLIDE-IN ANIMATION ------------------ */
@@ -67,7 +69,7 @@ h1 {
 .section-main {
     border-radius: 0 !important;
     margin: 0 !important;
-    height: 160em !important;
+    height: 175em !important;
     background-size: initial !important;
 }
 
@@ -260,8 +262,10 @@ body {
 
 .logo-title {
     display: inline;
+    color: black;
+    
     margin-left: 2%;
-
+    font-family: 'Space Mono', monospace !important;
 }
   h1 {
     font-size: small;

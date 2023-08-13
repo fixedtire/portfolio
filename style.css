@@ -21,23 +21,6 @@
     src: url('./fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
   }
 
-
-
-/*  font-family: 'Albert Sans', sans-serif;
-
-    font-family: 'Epilogue', sans-serif;
-
-    font-family: 'Poppins', sans-serif;
-
-    font-family: 'Space Mono', monospace;
-    
-*/
-
-
-/* --------- SLIDE-IN ANIMATION ------------------ */
-
-
-
 @keyframes slide-in {
     0% {
 /*      transform: translateX(100%); */

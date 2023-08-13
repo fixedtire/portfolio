@@ -5,7 +5,6 @@ const observer = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("slide-class");
     }
-
     /* makes Animation goes on/off depending on observation
     else entry.target.classList.remove("slide-class"); */
   });

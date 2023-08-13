@@ -1,4 +1,4 @@
-//setting up inbuilt JavaScript function IntersectionObserver
+//setting up a observer object that stores informations about intersecting elements
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
